@@ -73,9 +73,5 @@ let NamozSurah = [
 :deep .vue3-marquee {
     margin: auto;
   width: 95%;
-   
 }
-
- 
-
 </style>
