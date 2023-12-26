@@ -10,9 +10,11 @@
     "test:unit": "vitest"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
     "flowbite": "^2.2.1",
     "flowbite-vue": "^0.1.2",
     "pinia": "^2.1.7",
+    "primevue": "^3.45.0",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5",
     "vue3-marquee": "^4.1.0"

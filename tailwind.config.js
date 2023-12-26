@@ -10,7 +10,7 @@ export default {
       extend: {
 
         backgroundImage: {
-          'bg-islomiy': "url(https://png.pngtree.com/thumb_back/fh260/background/20210414/pngtree-gorgeous-mysterious-islam-ramadan-valid-window-background-image_614029.jpgF)",
+          'bg-islomiy': "url(https://w.forfun.com/fetch/a6/a63ab6f44204a7b3254da63f933b7886.jpeg)",
            
         }
       },
