@@ -9,7 +9,9 @@
               alt=""
               class="md:w-24 w-16"
             />
-            <span class="font-serif font-semibold px-1 md:text-xl text-sm">
+            <span
+              class="font-serif font-semibold px-1 md:text-xl text-sm text-white"
+            >
               Sug'onchi Jome Majsidi</span
             >
           </div>
@@ -47,17 +49,23 @@
 import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
 </script>
 <style scoped>
-
-
-
-:deep nav{
+:deep nav {
   background: linear-gradient(90deg, rgb(0, 128, 0), #14974f);
 }
 :deep button {
-    color: #fff;
+  color: #fff;
+}
+:deep button:active {
+  color: #070707 !important;
+}
+
+@media (min-width: 768px) {
+  :deep a {
+    color: #fff !important;
+    font-family: serif !important;
+  }
 }
 :deep a {
-    color: #fff;
-    font-family: serif;
+  color: #000000;
 }
 </style>

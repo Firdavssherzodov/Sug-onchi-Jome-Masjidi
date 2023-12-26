@@ -11,7 +11,7 @@ h-36 rounded-lg m-auto" v-for="item of NamozTime">
     </div>
     <Vue3Marquee :clone="false" :duration="10" :direction="''" class="">
 
-           <p v-for="srt of NamozSurah" class="text-white py-5 font-serif">{{ srt }}</p>
+           <p v-for="srt of NamozSurah" class="text-white py-5 font-serif text-xl">{{ srt }}</p>
         </Vue3Marquee>
     </div>
 </template>
