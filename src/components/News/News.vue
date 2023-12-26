@@ -1,7 +1,7 @@
 <template>
-  <section class="diva">
+  <section class="diva md:pt-10">
     <div
-      class="lg:w-9/12 md:w-full w-11/12 m-auto lg:flex justify-between py-5"
+      class="lg:w-[72%] md:w-full w-11/12 m-auto lg:flex justify-between py-5"
     >
       <img
         src="https://mykaleidoscope.ru/uploads/posts/2022-08/1659584419_36-mykaleidoscope-ru-p-musulmanskie-oboi-dizain-krasivo-foto-38.jpg"
@@ -36,10 +36,10 @@
         quasi!
       </p>
     </div>
-
+    <!-- news1 -->
     <div class="lg:w-9/12 w-full m-auto md:flex flex-wrap">
       <div
-        class="lg:w-[22%] md:w-2/5 w-11/12 m-auto lg:my-3 md:my-3 my-5 py-2 lg:m-5 rounded-lg hover:-translate-y-1 cursor-pointer shadow hover:shadow-2xl lg:shadow-xl shadow-2xl"
+        class="kard lg:w-[22%] md:w-2/5 w-11/12 m-auto lg:my-3 md:my-3 my-5 py-2 rounded-lg hover:-translate-y-1 cursor-pointer hover:shadow-2xl lg:shadow-xl shadow-2xl"
         v-for="item of News"
       >
         <img
@@ -51,6 +51,7 @@
           {{ item.title }}
         </p>
       </div>
+      <!-- news1 -->
     </div>
   </section>
 </template>
@@ -146,6 +147,9 @@ const News = [
 
 <style lang="scss" scoped>
 .diva {
-  background: linear-gradient(50deg, rgb(1, 90, 1), #14c061);
+  background: linear-gradient(360deg, rgb(1, 90, 1), #14c061);
+}
+.kard:hover p {
+  color: rgb(38, 38, 184);
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="diva  md:static fixed w-full z-10">
+  <div class="diva  fixed  w-full z-10">
     <fwb-navbar>
       <template #logo>
         <router-link to="/">
