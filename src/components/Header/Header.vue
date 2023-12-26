@@ -56,7 +56,7 @@ import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
   color: #fff;
 }
 :deep button:active {
-  color: #070707 !important;
+ color: #070707 !important;
 }
 
 @media (min-width: 768px) {
