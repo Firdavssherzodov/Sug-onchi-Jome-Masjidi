@@ -1,7 +1,7 @@
 <template>
   <section class="diva">
     <ul
-      class="lg:w-3/6 w-10/12 m-auto lg:flex justify-around text-white font-serif pt-16"
+      class="lg:w-2/5 w-10/12 m-auto lg:flex justify-around text-white font-serif lg:pt-16 pt-8 lg:pb-10 pb-8"
     >
       <router-link to="/"> <li class="py-1">Asosiy sahifa</li> </router-link>
       <router-link to="/Namoz"> <li class="py-1">Namoz</li> </router-link>
@@ -11,15 +11,7 @@
       <li class="py-1">Aloqa</li>
       <li class="py-1">Zakot</li>
     </ul>
-    <ul
-      class="lg:w-3/6 w-10/12 m-auto lg:flex justify-around text-white font-serif py-10"
-    >
-      <li class="py-1">Asosiy sahifa</li>
-      <li class="py-1">Namoz</li>
-      <li class="py-1">Xadislar</li>
-      <li class="py-1">Aloqa</li>
-      <li class="py-1">Zakot</li>
-    </ul>
+    
     <div class="lg:w-1/5 w-9/12 m-auto flex justify-evenly pb-5">
       <a href="https://t.me/@Sugonchi_jome_masjidi_rasmiy" target="_blank">
         <i class="fa-brands fa-telegram text-white text-3xl"></i
