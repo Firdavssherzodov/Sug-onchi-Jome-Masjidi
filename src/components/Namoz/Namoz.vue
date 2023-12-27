@@ -181,64 +181,29 @@ Iqomat takbirining lafzlari azonnikiga o'xshaydi, farqi — bunisi tez aytiladi
 
 
 
-            <AccordionTab header="Header II">
-              <p class="m-0 py-3">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Consectetur, adipisci velit, sed quia non numquam eius
-                modi.
+            <AccordionTab header="БОМДОД НAМОЗИ">
+              <p class="m-0 py-3">  
+                <iframe   src="https://www.youtube.com/embed/0KFHfNDN8Ew?si=AFfBjAy0hESpjH62" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header III">
+            <AccordionTab header=" ПЕСҲИН НAМОЗИ">
               <p class="m-0 py-3">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus.
+                <iframe   src="https://www.youtube.com/embed/36OuJ1eeF1I?si=8xDRoLZUUJUHAqLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header IIII">
+            <AccordionTab header="AСИР НAМОЗИ">
               <p class="m-0 py-3">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus.
+                <iframe  src="https://www.youtube.com/embed/ae_aggmDo1Y?si=c69rmG7dIb4lukpz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header IIIII">
+            <AccordionTab header="СҲОМ НAМОЗИ">
               <p class="m-0 py-3">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus.
+                <iframe  src="https://www.youtube.com/embed/UcqJBFGpwkg?si=QQEr1jhOnzT4NDVt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header IIIII">
+            <AccordionTab header="ХУФТОН НAМОЗИ">
               <p class="m-0 py-3">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus.
+                <iframe   src="https://www.youtube.com/embed/iM8asX4skmk?si=2bvsiloGPi-1tpHx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
           </Accordion>
@@ -246,77 +211,37 @@ Iqomat takbirining lafzlari azonnikiga o'xshaydi, farqi — bunisi tez aytiladi
         <!-- Ayollar uchun namoz -->
         <TabPanel header="Aёллар учун намоз">
           <Accordion :activeIndex="0">
-            <AccordionTab header="Header I 2">
+            <AccordionTab header=" 5 MAHAL NAMOZ">
               <p class="m-0 py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <iframe   src="https://www.youtube.com/embed/f4n7A96tDEM?si=P1Y3NI-DCvVUEpNm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header II 2">
+            <AccordionTab header=" БОБДОД НAМОЗИ">
               <p class="m-0 py-3">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt. Consectetur, adipisci velit, sed quia non numquam eius
-                modi.
+                <iframe  src="https://www.youtube.com/embed/bochi12F45A?si=_5h9x7X9G7C5B4YL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header III 2">
+            <AccordionTab header=" ПЕСҲИН НAМОЗИ">
               <p class="m-0 py-3">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus.
+                <iframe   src="https://www.youtube.com/embed/nXauZnrdYPM?si=0N8tOxEnjPDhCWc9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header IIII 2">
+            <AccordionTab header="AСИР НAМОЗИ">
               <p class="m-0 py-3">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus.
+                <iframe   src="https://www.youtube.com/embed/teLfhz4uqXU?si=YwD_XwsP-OmGsqv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header IIIII 2">
+            <AccordionTab header="СҲОМ НAМОЗИ">
               <p class="m-0 py-3">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus.
+                <iframe   src="https://www.youtube.com/embed/_P8bCizQyh4?si=3XC4rrvEi913K8Vl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
-            <AccordionTab header="Header IIIII 2">
+            <AccordionTab header="ХУФТОН НAМОЗИ">
               <p class="m-0 py-3">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum facilis est et expedita distinctio. Nam libero tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo
-                minus.
+                <iframe src="https://www.youtube.com/embed/Euff3FykivQ?si=wgjyETsFBNsanzFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
             </AccordionTab>
+           
           </Accordion>
         </TabPanel>
       </TabView>
