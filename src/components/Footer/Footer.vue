@@ -1,14 +1,4 @@
 <template>
-  <section class="diva">
-    <fwb-footer footer-type="socialmedia" class="w-9/12 m-auto footer mt-0">
-      <div class="md:flex md:justify-between">
-        <fwb-footer-brand
-          alt="Flowbite Logo"
-          href="https://flowbite.com"
-          name="Flowbite"
-          src="https://flowbite.com/docs/images/logo.svg"
-        />
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2
               class="mb-6 text-sm font-semibold text-white uppercase dark:text-black font-serif"
@@ -143,18 +133,3 @@ import {
   FwbFooterLinkGroup,
 } from "flowbite-vue";
 </script>
-
-<style scoped>
-:deep .footer {
-  background: linear-gradient(180deg, rgb(1, 90, 1), #14c061) !important;
-}
-.diva {
-  background: linear-gradient(180deg, rgb(1, 90, 1), #14c061) !important;
-}
-span {
-  color: #fff;
-}
-svg {
-  color: #fff !important;
-}
-</style>
