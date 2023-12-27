@@ -10,7 +10,7 @@
               class="md:w-24 w-16"
             />
             <span
-              class="font-serif font-semibold px-1 md:text-xl text-lg text-white"
+              class="font-serif font-semibold px-1 md:text-xl text-lg text-white  dark:text-white"
             >
               Sug'onchi Jome Majsidi</span
             >

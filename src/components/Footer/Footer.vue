@@ -3,27 +3,41 @@
     <ul
       class="lg:w-2/5 w-10/12 m-auto lg:flex justify-around text-white font-serif lg:pt-16 pt-8 lg:pb-10 pb-8"
     >
-      <router-link to="/"> <li class="py-1">Aсосий саҳифа</li> </router-link>
-      <router-link to="/Namoz"> <li class="py-1">Намоз</li> </router-link>
-     <router-link to="/Hadis"><li class="py-1">Ҳадислар</li> </router-link> 
-    <router-link to="/Zakot"> <li class="py-1">Закот</li> </router-link> 
-      <li class="py-1">Aloqa</li>
-      <li class="py-1">Zakot</li>
+      <router-link to="/">
+        <li class="py-1 dark:text-white">Aсосий саҳифа</li>
+      </router-link>
+      <router-link to="/Namoz">
+        <li class="py-1 dark:text-white">Намоз</li>
+      </router-link>
+      <router-link to="/Hadis"
+        ><li class="py-1 dark:text-white">Ҳадислар</li>
+      </router-link>
+      <router-link to="/Zakot">
+        <li class="py-1 dark:text-white">Закот</li>
+      </router-link>
+      <li class="py-1 dark:text-white">Aloqa</li>
+      <li class="py-1 dark:text-white">Zakot</li>
     </ul>
 
     <div class="lg:w-1/5 w-9/12 m-auto flex justify-evenly pb-5">
       <a href="https://t.me/@Sugonchi_jome_masjidi_rasmiy" target="_blank">
-        <i class="fa-brands fa-telegram text-white text-3xl"></i
+        <i class="fa-brands fa-telegram text-white text-3xl dark:text-white"></i
       ></a>
       <a href="http://">
-        <i class="fa-brands fa-facebook text-white text-3xl"></i
+        <i class="fa-brands fa-facebook text-white text-3xl dark:text-white"></i
       ></a>
       <a href="http://">
-        <i class="fa-brands fa-instagram text-white text-3xl"></i
+        <i
+          class="fa-brands fa-instagram text-white text-3xl dark:text-white"
+        ></i
       ></a>
-      <a href=""> <i class="fa-brands fa-twitter text-white text-3xl"></i></a>
+      <a href="">
+        <i class="fa-brands fa-twitter text-white text-3xl dark:text-white"></i
+      ></a>
     </div>
-    <p class="p1 text-center py-10 text-white font-sans text-sm">
+    <p
+      class="p1 text-center py-10 text-white font-sans text-sm dark:text-white"
+    >
       © 2024 Creator™ All Rights Reserved.
     </p>
   </footer>
