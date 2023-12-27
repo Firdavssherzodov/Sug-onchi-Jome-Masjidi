@@ -20,8 +20,8 @@
       <template #default="{ isShowMenu }">
         <fwb-navbar-collapse :is-show-menu="isShowMenu">
           <fwb-navbar-link link="/"> Asosiy sahifa </fwb-navbar-link>
-          <fwb-navbar-link link="#">  Namoz </fwb-navbar-link>
-          <fwb-navbar-link link="#"> Xadislar </fwb-navbar-link>
+          <fwb-navbar-link link="/Namoz">  Namoz </fwb-navbar-link>
+          <fwb-navbar-link link="/Hadis"> Xadislar </fwb-navbar-link>
           <fwb-navbar-link link="#"> Aloqa   </fwb-navbar-link>
           <fwb-navbar-link link="#"> Zakot </fwb-navbar-link>
 

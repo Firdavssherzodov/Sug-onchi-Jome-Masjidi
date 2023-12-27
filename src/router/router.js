@@ -9,6 +9,16 @@ const router = createRouter({
       name: "home",
       component: HomeView,
     },
+    {
+      path: "/Namoz",
+      name: "namoz",
+      component: () => import("../components/Namoz/Namoz.vue"),
+    },
+    {
+      path: "/Hadis",
+      name: "hadis",
+      component: () => import("../components/Hadis/Hadis.vue"),
+    },
   ],
 });
 

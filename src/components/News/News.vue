@@ -1,5 +1,5 @@
 <template>
-  <section class="diva md:pt-10">
+  <section class="diva md:pt-10 pb-5">
     <div
       class="lg:w-[72%] md:w-full w-11/12 m-auto lg:flex justify-between py-5"
     >
@@ -21,25 +21,15 @@
         adipisicing elit. Fugiat iusto corrupti ipsa aperiam ipsum veniam ut ex
         officiis nobis! Cumque veniam architecto deleniti dolore provident autem
         ut hic consequuntur maiores. illum doloremque ratione possimus
-        reiciendis! Corporis fugiat atque, rem vel maiores suscipit unde?
-        Doloremque, debitis! Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Magni unde, quam fuga dolorum praesentium modi incidunt rerum
-        culpa? Magni perferendis provident distinctio a tempora illum dolores
-        odit hic sit quasi! Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Fugiat iusto corrupti ipsa aperiam ipsum veniam ut ex officiis
-        nobis! Cumque veniam architecto deleniti dolore provident autem ut hic
-        consequuntur maiores.illum doloremque ratione possimus reiciendis!
-        Corporis fugiat atque, rem vel maiores suscipit unde? Doloremque,
-        debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-        unde, quam fuga dolorum praesentium modi incidunt rerum culpa? Magni
-        perferendis provident distinctio a tempora illum dolores odit hic sit
-        quasi!
+        adipisicing elit. Fugiat iusto corrupti ipsa aperiam ipsum veniam ut ex
+        officiis nobis! Cumque veniam architecto deleniti dolore provident autem
+        ut hic consequuntur
       </p>
     </div>
     <!-- news1 -->
     <div class="lg:w-9/12 w-full m-auto md:flex flex-wrap">
       <div
-        class="kard lg:w-[22%] md:w-2/5 w-11/12 m-auto lg:my-3 md:my-3 my-5 py-2 rounded-lg hover:-translate-y-1 cursor-pointer hover:shadow-2xl lg:shadow-xl shadow-2xl"
+        class="kard lg:w-[22%] md:w-2/5 w-11/12 m-auto lg:my-3 md:my-3 my-5 py-2 rounded-lg hover:-translate-y-1 cursor-pointer   lg:shadow-xl shadow-2xl"
         v-for="item of News"
       >
         <img
@@ -150,6 +140,6 @@ const News = [
   background: linear-gradient(360deg, rgb(1, 90, 1), #14c061);
 }
 .kard:hover p {
-  color: rgb(38, 38, 184);
+  color: rgb(47, 47, 245);
 }
 </style>
