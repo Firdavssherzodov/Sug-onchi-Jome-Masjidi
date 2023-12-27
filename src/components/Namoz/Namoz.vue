@@ -1,9 +1,9 @@
 <template>
   <Header></Header>
   <NamozTime></NamozTime>
-  <div class="faq_block md:px-[50px] px-5 lg:pt-10 pt-5" id="faq">
-    <p class="text-white font-serif text-center py-0">Намоз ўқишни ўрганамиз</p>
-    <div class="card py-14 md:px-10">
+  <div class="faq_block md:px-[50px] px-5 lg:pt-10 pt-5 md:w-full w-[100%]" id="faq">
+    <p class="text-color1 font-serif text-center py-0 md:text-xl text-lg">Намоз ўқишни ўрганамиз</p>
+    <div class="card py-8 pb-14 md:px-10">
       <!--  -->
 
       <TabView>
@@ -210,7 +210,7 @@ Iqomat takbirining lafzlari azonnikiga o'xshaydi, farqi — bunisi tez aytiladi
         </TabPanel>
         <!-- Ayollar uchun namoz -->
         <TabPanel header="Aёллар учун намоз">
-          <Accordion :activeIndex="0">
+          <Accordion  >
             <AccordionTab header=" 5 MAHAL NAMOZ">
               <p class="m-0 py-3">
                 <iframe   src="https://www.youtube.com/embed/f4n7A96tDEM?si=P1Y3NI-DCvVUEpNm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -263,12 +263,18 @@ import TabPanel from "primevue/tabpanel";
 </script>
 
 <style lang="scss" scoped>
+ul li {
+  font-family: 'font-serf';
+}
+ 
 .faq_block {
-  background: linear-gradient(45deg, rgb(1, 90, 1), #14c061);
+  background-image: url(https://nasafziyo.uz/templates/themeone/images/logo-fon2.png);
+ 
 }
 
 :deep .p-accordion {
-  background: linear-gradient(45deg, rgb(1, 90, 1), #14c061);
+  background-color: #126159;
+  border-radius: 12px;
 }
 
 :deep .p-accordion .p-accordion-content {
@@ -286,21 +292,22 @@ import TabPanel from "primevue/tabpanel";
   .p-accordion-tab:first-child
   .p-accordion-header
   .p-accordion-header-link {
-  background: linear-gradient(-90deg, rgb(1, 90, 1), #14c061);
+  background-color: #059c94;
 
   color: white;
   border-radius: 12px;
 }
 
 :deep .p-accordion .p-accordion-header .p-accordion-header-link {
-  background: linear-gradient(-45deg, rgb(1, 90, 1), #14c061);
+  background-color: #059c94;
+
   color: white;
   border-radius: 12px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 :deep .p-tabview .p-tabview-nav li .p-tabview-nav-link {
-  color: white;
+  color: #059c94;
   background: transparent;
   padding: 20px 12px;
 }
@@ -310,7 +317,7 @@ import TabPanel from "primevue/tabpanel";
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: white;
+  background-color: #059c94;
   transition: 500ms cubic-bezier(0.35, 0, 0.25, 1);
 }
 :deep .p-tabview .p-tabview-nav {

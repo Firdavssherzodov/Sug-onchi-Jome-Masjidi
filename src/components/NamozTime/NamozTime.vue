@@ -1,4 +1,5 @@
 <template>
+
   <section class="diva md:pt-28 pt-20 md:pb-0 pb-5" href="#Home">
     <p class="font-serif text-white text-center md:text-xl py-4">
       Намоз вақтлари : Самарқанд
@@ -20,12 +21,13 @@
     <Vue3Marquee :clone="false" :duration="10" :direction="''" class="">
       <p
         v-for="srt of NamozSurah"
-        class="text-white py-5 font-serif md:text-xl"
+        class="text-white py-5 font-serif md:text-[1.3rem] text-[1rem]"
       >
         {{ srt }}
       </p>
     </Vue3Marquee>
   </section>
+  <div class="div2 h-6"></div>
 </template>
 
 <script setup>
@@ -69,11 +71,8 @@ let NamozSurah = [
 
 <style lang="scss" scoped>
 .diva {
-  background: linear-gradient(180deg, rgb(1, 90, 1), #14c061);
-  //   background-image: url(https://celes.club/uploads/posts/2022-05/1653108694_73-celes-club-p-zelenii-islamskii-fon-krasivie-75.jpg);
-  //   background-size: cover;
-  //   background-repeat: no-repeat;
-  //   background-position: 60%;
+  background-image: url(https://nasafziyo.uz/templates/themeone/images/fon.png);
+  background-size: cover;
 }
 
 @media (min-width: 1024px) {
@@ -85,5 +84,8 @@ let NamozSurah = [
 :deep .vue3-marquee {
   margin: auto;
   width: 95%;
+}
+.div2{
+  background-image: url(https://nasafziyo.uz/templates/themeone/images/pr_pattern22.svg);
 }
 </style>

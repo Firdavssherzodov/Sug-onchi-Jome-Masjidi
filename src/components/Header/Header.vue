@@ -10,7 +10,7 @@
               class="md:w-24 w-16"
             />
             <span
-              class="font-serif font-semibold px-1 md:text-xl text-sm text-white"
+              class="font-serif font-semibold px-1 md:text-xl  text-lg text-white"
             >
               Sug'onchi Jome Majsidi</span
             >
@@ -30,8 +30,8 @@
           <router-link to="/Hadis">
             <fwb-navbar-link link="#"> Ҳадислар </fwb-navbar-link></router-link
           >
-          <fwb-navbar-link link="#"> Aloqa </fwb-navbar-link>
           <fwb-navbar-link link="#"> Закот </fwb-navbar-link>
+          <fwb-navbar-link link="#"> Ходимлар </fwb-navbar-link>
         </fwb-navbar-collapse>
       </template>
       <template #menu-icon>
@@ -59,7 +59,8 @@ import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
 </script>
 <style scoped>
 :deep nav {
-  background: linear-gradient(90deg, rgb(0, 128, 0), #14974f);
+
+   background: #1b9085;
 }
 :deep button {
   color: #fff;

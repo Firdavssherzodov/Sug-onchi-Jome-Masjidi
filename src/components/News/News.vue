@@ -9,7 +9,7 @@
         class="lg:w-3/6 md:w-[95%] md:h-[28rem] m-auto rounded-lg"
       />
       <p
-        class="text-white font-serif lg:px-5 md:px-4 px-2 lg:text-left md:text-center lg:py-0 py-5"
+        class="text-color1 font-serif lg:px-5 md:px-4 px-2 lg:text-left md:text-center lg:py-0 py-5 md:text-[1rem] leading-normal text-sm l"
       >
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi mollitia
         aliquid asperiores voluptate laudantium magnam illum doloremque ratione
@@ -27,7 +27,7 @@
       </p>
     </div>
 
-    <p class="text-white font-serif text-center md:py-10 py-4  ">Марузалар</p>
+    <p class="text-color1 font-serif text-center md:py-10 py-4  md:text-xl text-lg">Марузалар</p>
     <!-- news1 -->
     <div class="lg:w-9/12 w-full m-auto md:flex flex-wrap">
       <div
@@ -43,7 +43,7 @@
           class="w-[95%] h-[12rem] m-auto rounded-lg"
         ></iframe>
         <!--    -->
-        <p class="px-3 py-2 text-white font-serif lg:text-sm">
+        <p class="px-3 py-2 text-color1 font-serif lg:text-sm text-[0.8rem]">
           {{ item.title }}
         </p>
       </div>
@@ -59,7 +59,8 @@ let news1 = News();
 
 <style lang="scss" scoped>
 .diva {
-  background: linear-gradient(360deg, rgb(1, 90, 1), #14c061);
+  // background: linear-gradient(360deg, rgb(1, 90, 1), #14c061);
+  background-image: url(https://nasafziyo.uz/templates/themeone/images/logo-fon2.png);
 }
 .kard:hover p {
   color: rgb(47, 47, 245);
