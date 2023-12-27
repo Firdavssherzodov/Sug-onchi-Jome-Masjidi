@@ -124,7 +124,7 @@
                 <AccordionTab header="AЗОН ДУОСИ  ">
               <p class="m-0 py-3">
                 <span class="font-semibold">AZON DUOSI</span> <br>
-<span class="font-semibold">Allohumma robba hazihid-da'vatit-tammah. Vas-solatil qoimah, ati Muhammadanil vasiylata val faziylah. Vad-darojatal 'aliyatar rofi'a. Vab'as-hu maqomam mahmudanillaziy va'adtah. Varzuqna shafa-'atahu yavmal qiyamah. Innaka la tuxliful mi'ad!</span> <br>
+<span class="font-semibold">Allohumma robba hazihid-da'vatit-tammah. Vas-solatil qoimah, ati Muhammadanil vasiylata val faziylah. Vad-darojatal 'aliyatar rofi'a. Vab'as-hu maqomam mahmudanillaziy va'adtah. Varzuqna shafa-'atahu yavmal qiyamah. Innaka la tuxliful mi'ad!</span> <br> <br>
 
 
 <span  class="font-semibold">Ma'nosi:</span>  Ushbu komil da'vatning, hozir qoim bo'lgan namozning Parvardigori, ey Alloh! Muhammadga (s.a.v.) vasila, fazilat va baland oliy daraja ato etgin. Uni O'zing va'da qilgan maqtovli maqomda tiriltirgin. Bizga Qiyomat kunida Uning shafoatini nasib et. Albatta, Sen va'daga xilof qilmassan.
