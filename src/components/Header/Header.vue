@@ -24,7 +24,6 @@
           <fwb-navbar-link link="/Hadis"> Xadislar </fwb-navbar-link>
           <fwb-navbar-link link="#"> Aloqa   </fwb-navbar-link>
           <fwb-navbar-link link="#"> Zakot </fwb-navbar-link>
-
         </fwb-navbar-collapse>
       </template>
       <template #menu-icon>
