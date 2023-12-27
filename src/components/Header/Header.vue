@@ -1,5 +1,5 @@
 <template>
-  <div class="diva fixed w-full z-10">
+  <header class="diva fixed w-full z-10">
     <fwb-navbar>
       <template #logo>
         <router-link to="/">
@@ -10,7 +10,7 @@
               class="md:w-24 w-16"
             />
             <span
-              class="font-serif font-semibold px-1 md:text-xl  text-lg text-white"
+              class="font-serif font-semibold px-1 md:text-xl text-lg text-white"
             >
               Sug'onchi Jome Majsidi</span
             >
@@ -30,7 +30,9 @@
           <router-link to="/Hadis">
             <fwb-navbar-link link="#"> Ҳадислар </fwb-navbar-link></router-link
           >
-          <fwb-navbar-link link="#"> Закот </fwb-navbar-link>
+          <router-link to="/Zakot"
+            ><fwb-navbar-link link="#"> Закот </fwb-navbar-link></router-link
+          >
           <fwb-navbar-link link="#"> Ходимлар </fwb-navbar-link>
         </fwb-navbar-collapse>
       </template>
@@ -51,7 +53,7 @@
         </svg>
       </template>
     </fwb-navbar>
-  </div>
+  </header>
 </template>
 
 <script setup>
@@ -59,8 +61,7 @@ import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
 </script>
 <style scoped>
 :deep nav {
-
-   background: #1b9085;
+  background: #1b9085;
 }
 :deep button {
   color: #fff;

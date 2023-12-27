@@ -77,5 +77,43 @@ export const News = defineStore("News", () => {
     },
   ]);
 
-  return { News };
+  const Zakot = ref([
+    {
+        id:1,
+        vedio:'https://www.youtube.com/embed/0XNyBiofsUk?si=rOLEPMjugi-BrSz9',
+        title:'ZAKOT QAYSI MOLDAN BERILADI | NURIDDIN DOMLA XOLIQNAZAROV'
+    },
+    {
+        id:2,
+        vedio:'https://www.youtube.com/embed/OtiniaTbg-w?si=w6ULMCsne-xagk_6',
+        title:'ABDULLOH DOMLA ZAKOT HAQIDA / ZAKOT NIMA ?'
+    },
+    {
+        id:3,
+        vedio:'https://www.youtube.com/embed/In6uFjCc-do?si=sEo4_CHiQX-NW11B',
+        title:'Zakot va ushr haqida '
+    },
+    {
+        id:4,
+        vedio:'https://www.youtube.com/embed/If8SwZEbOV8?si=B6qh13AbMtXuzspS',
+        title:'Закот ва эхсон беришдан олдин яҳшилаб эшитиб олинг абдуллох домла марузалари'
+    },
+    {
+        id:5,
+        vedio:'https://www.youtube.com/embed/OO1ocpP8I6w?si=75sHPoQd6NmHUZNa',
+        title:'06. Zakot (Ramazon 2006) «Ruhiy tarbiya» | Закот (Рамазон 2006) «Руҳий тарбия»'
+    },
+    {
+        id:6,
+        vedio:'https://www.youtube.com/embed/8IPeMN6IVEg?si=diWiZ-Ib-FJ2s8hD',
+        title:'Shayx Muhammad Sodiq Muhammad Yusuf - ZAKOT'
+    },
+    {
+        id:7,
+        vedio:'https://www.youtube.com/embed/EbZaKvhFJK8?si=bAw_0VUBXhRHIaqI',
+        title:' BOY BÓLISHNI ISTASANGIZ BU ISHGA ODATLANING SHAYX MUHAMMAD SODIQ MUHAMMAD YUSUF MARUZALARI MARUZALAR'
+    }
+  ])
+
+  return { News,Zakot };
 });

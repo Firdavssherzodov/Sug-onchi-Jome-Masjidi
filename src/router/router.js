@@ -19,6 +19,11 @@ const router = createRouter({
       name: "hadis",
       component: () => import("../components/Hadis/Hadis.vue"),
     },
+    {
+      path:'/Zakot',
+      name: "zakot",
+      component: () => import("../components/Zakot/Zakot.vue"),
+    }
   ],
 });
 

@@ -1,6 +1,6 @@
 <template>
 
-  <section class="diva md:pt-28 pt-20 md:pb-0 pb-5" href="#Home">
+  <nav class="diva md:pt-28 pt-20 md:pb-0 pb-5" href="#Home">
     <p class="font-serif text-white text-center md:text-xl py-4">
       Намоз вақтлари : Самарқанд
     </p>
@@ -26,7 +26,7 @@
         {{ srt }}
       </p>
     </Vue3Marquee>
-  </section>
+  </nav>
   <div class="div2 h-6"></div>
 </template>
 
