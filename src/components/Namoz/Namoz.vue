@@ -211,7 +211,7 @@ Iqomat takbirining lafzlari azonnikiga o'xshaydi, farqi — bunisi tez aytiladi
         <!-- Ayollar uchun namoz -->
         <TabPanel header="Aёллар учун намоз">
           <Accordion  >
-            <AccordionTab header=" 5 MAHAL NAMOZ">
+            <AccordionTab header=" 5 МAҲAЛ НAМОЗ">
               <p class="m-0 py-3">
                 <iframe   src="https://www.youtube.com/embed/f4n7A96tDEM?si=P1Y3NI-DCvVUEpNm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </p>
