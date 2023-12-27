@@ -11,7 +11,7 @@
       <template #item="slotProps">
 
         <div
-          class="border-1 surface-border border-round text-center py-5 px-3 lg:w-[90%] w-[100%] lg:h-full h-72    lg:ml-5 "
+          class="border-1 surface-border border-round text-center py-5 px-3 lg:w-[90%] w-[100%] lg:h-full h-72x    lg:ml-5 "
         >
           <img :src="slotProps.data.image" alt="" class="shadow-2 w-full h-full rounded-xl" />
         </div>
