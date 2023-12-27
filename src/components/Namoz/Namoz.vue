@@ -2,7 +2,7 @@
   <Header></Header>
   <NamozTime></NamozTime>
   <div class="faq_block md:px-[50px] px-5 lg:pt-10 pt-5 md:w-full w-[100%]" id="faq">
-    <p class="text-color1 font-serif text-center py-0 md:text-xl text-lg">Намоз ўқишни ўрганамиз</p>
+    <p class="text-color1 font-serif text-center lg:pt-0 pt-7 md:text-xl text-lg">Намоз ўқишни ўрганамиз</p>
     <div class="card py-8 pb-14 md:px-10">
       <!--  -->
 
