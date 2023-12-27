@@ -27,7 +27,7 @@
       </p>
     </div>
 
-    <p class="text-white font-serif text-center md:py-10 py-4 md:text-xl">Марузалар</p>
+    <p class="text-white font-serif text-center md:py-10 py-4  ">Марузалар</p>
     <!-- news1 -->
     <div class="lg:w-9/12 w-full m-auto md:flex flex-wrap">
       <div
