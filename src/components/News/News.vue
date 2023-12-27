@@ -26,17 +26,23 @@
         ut hic consequuntur
       </p>
     </div>
+
+    <p class="text-white font-serif text-center md:py-10 py-4 md:text-xl">Марузалар</p>
     <!-- news1 -->
     <div class="lg:w-9/12 w-full m-auto md:flex flex-wrap">
       <div
-        class="kard lg:w-[22%] md:w-2/5 w-11/12 m-auto lg:my-3 md:my-3 my-5 py-2 rounded-lg hover:-translate-y-1 cursor-pointer   lg:shadow-xl shadow-2xl"
-        v-for="item of News"
+        class="kard lg:w-[22%] md:w-2/5 w-11/12 m-auto lg:my-3 md:my-3 my-5 py-2 rounded-lg hover:-translate-y-1 cursor-pointer lg:shadow-xl shadow-2xl"
+        v-for="item of news1.News"
       >
-        <img
-          :src="item.Image"
-          alt="loading"
+        <iframe
+          :src="item.vedio"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
           class="w-[95%] h-[12rem] m-auto rounded-lg"
-        />
+        ></iframe>
+        <!--    -->
         <p class="px-3 py-2 text-white font-serif lg:text-sm">
           {{ item.title }}
         </p>
@@ -47,92 +53,8 @@
 </template>
 
 <script setup>
-const News = [
-  {
-    id: 1,
-    Image:
-      "https://mykaleidoscope.ru/x/uploads/posts/2023-05/1684747848_mykaleidoscope-ru-p-krasivie-oboi-v-stile-islam-instagram-63.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 2,
-    Image:
-      "https://islamdag.ru/sites/default/files/img/2019/vseobislame/milost003.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 3,
-    Image:
-      "https://bogatyr.club/uploads/posts/2023-03/1677868535_bogatyr-club-p-polumesyats-v-dubae-foni-oboi-68.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 4,
-    Image:
-      "https://catherineasquithgallery.com/uploads/posts/2023-02/1676728481_catherineasquithgallery-com-p-fon-zelenii-musulmanskii-27.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 5,
-    Image:
-      "https://i.pinimg.com/originals/9b/1f/fa/9b1ffa8c83a971a1524e9730379a15cc.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 6,
-    Image:
-      "https://avatars.mds.yandex.net/get-mpic/4356316/img_id4123574928639054541.jpeg/orig",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 7,
-    Image:
-      "https://mykaleidoscope.ru/x/uploads/posts/2023-05/1684747848_mykaleidoscope-ru-p-krasivie-oboi-v-stile-islam-instagram-63.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 8,
-    Image:
-      "https://islamdag.ru/sites/default/files/img/2019/vseobislame/milost003.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 9,
-    Image:
-      "https://bogatyr.club/uploads/posts/2023-03/1677868535_bogatyr-club-p-polumesyats-v-dubae-foni-oboi-68.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 10,
-    Image:
-      "https://catherineasquithgallery.com/uploads/posts/2023-02/1676728481_catherineasquithgallery-com-p-fon-zelenii-musulmanskii-27.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 11,
-    Image:
-      "https://i.pinimg.com/originals/9b/1f/fa/9b1ffa8c83a971a1524e9730379a15cc.jpg",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-  {
-    id: 12,
-    Image:
-      "https://avatars.mds.yandex.net/get-mpic/4356316/img_id4123574928639054541.jpeg/orig",
-    title:
-      " perferendis provident distinctio a tempora illum dolores odit hic si ",
-  },
-];
+import { News } from "../../useStore/store.js";
+let news1 = News();
 </script>
 
 <style lang="scss" scoped>

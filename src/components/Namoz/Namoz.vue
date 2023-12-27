@@ -2,12 +2,12 @@
   <Header></Header>
   <NamozTime></NamozTime>
   <div class="faq_block md:px-[50px] px-5 lg:pt-10 pt-5" id="faq">
-    <p class="text-white font-serif text-center py-0">Namoz o'qishni o'rganamiz</p>
+    <p class="text-white font-serif text-center py-0">Намоз ўқишни ўрганамиз</p>
     <div class="card py-14 md:px-10">
       <!--  -->
 
       <TabView>
-        <TabPanel header="Erkaklar uchun namoz">
+        <TabPanel header="Еркаклар учун намоз">
             <Accordion :activeIndex="0">
         <AccordionTab header="Header I">
           <p class="m-0 py-3">
@@ -79,7 +79,7 @@
       </Accordion>
         </TabPanel>
         <!-- Ayollar uchun namoz -->
-        <TabPanel header="Ayollar uchun namoz">
+        <TabPanel header="Aёллар учун намоз">
             <Accordion :activeIndex="0">
         <AccordionTab header="Header I 2">
           <p class="m-0 py-3">

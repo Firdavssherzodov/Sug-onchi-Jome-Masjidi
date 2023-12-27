@@ -1,7 +1,7 @@
 <template>
   <section class="diva md:pt-28 pt-20 md:pb-0 pb-5" href="#Home">
     <p class="font-serif text-white text-center md:text-xl py-4">
-      Namoz vaqtlari : Samarqand
+      Намоз вақтлари : Самарқанд
     </p>
     <section
       class="lg:w-[60%] w-full m-auto py-5 flex lg:justify-around flex-wrap gap-5"
@@ -63,7 +63,7 @@ const NamozTime = [
 ];
 
 let NamozSurah = [
-  "Namozni to‘liq ado eting. Albatta, namoz mo‘minlarga vaqtida farz qilingandir (Niso surasi 103-oyat)",
+  "Намозни тўлиқ адо етинг. Aлбатта, намоз мўминларга вақтида фарз қилингандир (Нисо сураси 103-оят)",
 ];
 </script>
 

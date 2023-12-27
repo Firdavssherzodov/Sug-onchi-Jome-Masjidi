@@ -21,17 +21,17 @@
         <fwb-navbar-collapse :is-show-menu="isShowMenu">
           <router-link to="/"
             ><fwb-navbar-link link="#">
-              Asosiy sahifa
+              Aсосий саҳифа
             </fwb-navbar-link></router-link
           >
           <router-link to="/Namoz">
-            <fwb-navbar-link link="#"> Namoz </fwb-navbar-link></router-link
+            <fwb-navbar-link link="#"> Намоз </fwb-navbar-link></router-link
           >
           <router-link to="/Hadis">
-            <fwb-navbar-link link="#"> Xadislar </fwb-navbar-link></router-link
+            <fwb-navbar-link link="#"> Ҳадислар </fwb-navbar-link></router-link
           >
           <fwb-navbar-link link="#"> Aloqa </fwb-navbar-link>
-          <fwb-navbar-link link="#"> Zakot </fwb-navbar-link>
+          <fwb-navbar-link link="#"> Закот </fwb-navbar-link>
         </fwb-navbar-collapse>
       </template>
       <template #menu-icon>
