@@ -1,8 +1,8 @@
 <template>
   <Header></Header>
   <NamozTime></NamozTime>
-  <div class="faq_block md:px-[50px] px-5 pt-10" id="faq">
-    <p class="text-white font-serif text-center">Namoz o'qishni</p>
+  <div class="faq_block md:px-[50px] px-5 lg:pt-10 pt-5" id="faq">
+    <p class="text-white font-serif text-center py-0">Namoz o'qishni o'rganamiz</p>
     <div class="card py-14 md:px-10">
       <!--  -->
 

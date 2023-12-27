@@ -1,5 +1,5 @@
 <template>
-  <div class="diva  fixed  w-full z-10">
+  <div class="diva fixed w-full z-10">
     <fwb-navbar>
       <template #logo>
         <router-link to="/">
@@ -19,10 +19,18 @@
       </template>
       <template #default="{ isShowMenu }">
         <fwb-navbar-collapse :is-show-menu="isShowMenu">
-          <fwb-navbar-link link="/"> Asosiy sahifa </fwb-navbar-link>
-          <fwb-navbar-link link="/Namoz">  Namoz </fwb-navbar-link>
-          <fwb-navbar-link link="/Hadis"> Xadislar </fwb-navbar-link>
-          <fwb-navbar-link link="#"> Aloqa   </fwb-navbar-link>
+          <router-link to="/"
+            ><fwb-navbar-link link="#">
+              Asosiy sahifa
+            </fwb-navbar-link></router-link
+          >
+          <router-link to="/Namoz">
+            <fwb-navbar-link link="#"> Namoz </fwb-navbar-link></router-link
+          >
+          <router-link to="/Hadis">
+            <fwb-navbar-link link="#"> Xadislar </fwb-navbar-link></router-link
+          >
+          <fwb-navbar-link link="#"> Aloqa </fwb-navbar-link>
           <fwb-navbar-link link="#"> Zakot </fwb-navbar-link>
         </fwb-navbar-collapse>
       </template>
@@ -57,7 +65,7 @@ import { FwbNavbar, FwbNavbarCollapse, FwbNavbarLink } from "flowbite-vue";
   color: #fff;
 }
 :deep button:active {
- color: #070707 !important;
+  color: #070707 !important;
 }
 
 @media (min-width: 768px) {
