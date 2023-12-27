@@ -210,7 +210,7 @@ import TabPanel from "primevue/tabpanel";
 :deep .p-tabview .p-tabview-nav li .p-tabview-nav-link {
   color: white;
   background: transparent;
-  padding: 20px 15px;
+  padding: 20px 12px;
 }
 :deep .p-tabview .p-tabview-nav .p-tabview-ink-bar {
   z-index: 1;
