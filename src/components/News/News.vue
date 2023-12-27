@@ -1,5 +1,5 @@
 <template>
-  <section class="diva md:pt-10 pb-5 dark:bg-white">
+  <section class="diva md:pt-10 pb-5 dark:black">
     <div
       class="lg:w-[72%] md:w-full w-11/12 m-auto lg:flex justify-between py-5"
     >
