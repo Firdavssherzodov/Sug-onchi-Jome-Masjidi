@@ -26,7 +26,7 @@
         ut hic consequuntur
       </p>
     </div>
-
+<Carusel1></Carusel1>
     <p class="text-color1 font-serif text-center md:py-10 py-4  md:text-xl text-lg">Марузалар</p>
     <!-- news1 -->
     <div class="lg:w-9/12 w-full m-auto md:flex flex-wrap">
@@ -54,6 +54,7 @@
 
 <script setup>
 import { News } from "../../useStore/store.js";
+import Carusel1 from "../Carusel/Carusel.vue";
 let news1 = News();
 </script>
 

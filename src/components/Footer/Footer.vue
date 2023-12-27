@@ -5,8 +5,8 @@
     >
       <router-link to="/"> <li class="py-1">Aсосий саҳифа</li> </router-link>
       <router-link to="/Namoz"> <li class="py-1">Намоз</li> </router-link>
-      <li class="py-1">Ҳадислар</li>
-      <li class="py-1">Закот</li>
+     <router-link to="/Hadis"><li class="py-1">Ҳадислар</li> </router-link> 
+    <router-link to="/Zakot"> <li class="py-1">Закот</li> </router-link> 
       <li class="py-1">Aloqa</li>
       <li class="py-1">Zakot</li>
     </ul>
