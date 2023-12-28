@@ -117,19 +117,19 @@ export const News = defineStore("News", () => {
      },
      {
       id:3,
-      image:'https://s2-goods.ozstatic.by/2000/803/892/10/10892803_100.jpg'
+      image:'https://cdn1.vectorstock.com/i/1000x1000/52/25/mosque-design-vector-19125225.jpg'
      },
      {
       id:4,
-      image:'https://s2-goods.ozstatic.by/2000/803/892/10/10892803_100.jpg'
+      image:'https://cdn1.vectorstock.com/i/1000x1000/52/25/mosque-design-vector-19125225.jpg'
      },
      {
       id:5,
-      image:'https://s2-goods.ozstatic.by/2000/803/892/10/10892803_100.jpg'
+      image:' https://s2-goods.ozstatic.by/2000/803/892/10/10892803_100.jpg'
      },
      {
       id:6,
-      image:'https://s2-goods.ozstatic.by/2000/803/892/10/10892803_100.jpg'
+      image:'https://florianziegler.com/wp-content/uploads/2015/05/sheikh_zayed_grand_mosque_14_DSF3838.jpg'
      },
 
   ]);
