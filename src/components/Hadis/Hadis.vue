@@ -2,7 +2,6 @@
     <Header></Header>
   <section class="diva py-32">
 
-
   </section>
   <footer12></footer12>
 </template>
