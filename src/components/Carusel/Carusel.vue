@@ -1,5 +1,5 @@
 <template>
-  <div class="card lg:w-3/4 w-full m-auto lg:h-full h-[17rem]  ">
+  <div class="card lg:w-3/4 w-full m-auto lg:h-4/5 h-[17rem]  ">
     <Carousel
       :value="products"
       :numVisible="5"
@@ -69,5 +69,15 @@ const responsiveOptions = ref([
   transform: scale(1);
   cursor: pointer;
   color: rgb(47, 47, 245);
+}
+
+
+@media (min-width: 992px) {
+  :deep button {
+  display: block !important;
+}
+}
+:deep button {
+  display: none;
 }
 </style>

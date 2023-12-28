@@ -15,8 +15,8 @@
       <router-link to="/Zakot">
         <li class="py-1 dark:text-white">Закот</li>
       </router-link>
-      <li class="py-1 dark:text-white">Aloqa</li>
-      <li class="py-1 dark:text-white">Zakot</li>
+      <li class="py-1 dark:text-white">Тарих</li>
+      <!-- <li class="py-1 dark:text-white">Admin</li> -->
     </ul>
 
     <div class="lg:w-1/5 w-9/12 m-auto flex justify-evenly pb-5">
@@ -35,6 +35,7 @@
         <i class="fa-brands fa-twitter text-white text-3xl dark:text-white"></i
       ></a>
     </div>
+    
     <p
       class="p1 text-center py-10 text-white font-sans text-sm dark:text-white"
     >
