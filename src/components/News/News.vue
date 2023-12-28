@@ -60,7 +60,6 @@ let news1 = News();
 
 <style lang="scss" scoped>
 .diva {
-  // background: linear-gradient(360deg, rgb(1, 90, 1), #14c061);
   background-image: url(https://nasafziyo.uz/templates/themeone/images/logo-fon2.png);
 }
 .kard:hover p {

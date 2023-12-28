@@ -9,7 +9,6 @@
       :autoplayInterval="3000"
     >
       <template #item="slotProps">
-
         <div
           class="border-1 surface-border border-round text-center py-5 px-3 lg:w-[90%] w-[100%] lg:h-full h-72x    lg:ml-5 "
         >
@@ -22,16 +21,12 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
-
 import Carousel from "primevue/carousel";
-
 import { News } from "../../useStore/store.js";
 let ProductService = News();
 
 onMounted(() => {
   products.value = ProductService.HistoreImage;
-
-  console.log(ProductService.HistoreImage);
 });
 
 const products = ref();
